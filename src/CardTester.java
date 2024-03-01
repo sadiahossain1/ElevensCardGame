@@ -11,8 +11,10 @@ public class CardTester {
         Card card1 = new Card("Diamond", "idk", 2);
         Card card2 = new Card("Diamond", "idk", 2);
         Card card3 = new Card("Hearts", "idk", 6);
-        card1.rank();
-        card2.suit();
-        card3.pointValue();
+        System.out.println(card1.rank());
+        System.out.println(card2.suit());
+        System.out.println(card3.pointValue());
+        System.out.println(card1.matches(card2));
+        System.out.println(card1.matches(card3));
     }
 }
