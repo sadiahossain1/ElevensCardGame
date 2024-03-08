@@ -77,7 +77,7 @@ public class Deck {
         if (size == 0) {
             return null;
         }
-        return cards.get(size);
+        return cards.remove(0);
     }
 
     /**
